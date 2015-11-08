@@ -4,8 +4,12 @@ title: Memento
 folder: memento
 permalink: /patterns/memento/
 categories: Behavioral
-tags: Java
+tags:
+ - Java
+ - Gang Of Four
 ---
+
+**Also known as:** Token
 
 **Intent:** Without violating encapsulation, capture and externalize an
 object's internal state so that the object can be restored to this state later.
@@ -20,3 +24,7 @@ object's internal state so that the object can be restored to this state later.
 **Real world examples:**
 
 * [java.util.Date](http://docs.oracle.com/javase/8/docs/api/java/util/Date.html)
+
+**Credits**
+
+* [Design Patterns: Elements of Reusable Object-Oriented Software](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
